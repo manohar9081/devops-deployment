@@ -132,7 +132,7 @@ ssm_session() {
         region_name="us-east-1"
     fi
     if [ -z "$doc" ]; then
-        doc="devops-user-SSM-Document"
+        doc="default"
     fi
 
     export AWS_PROFILE="$profile_name"
